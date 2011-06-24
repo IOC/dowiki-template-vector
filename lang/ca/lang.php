@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 /**
@@ -108,3 +109,113 @@ $lang["vector_donate"] = "Fes una donació";
 $lang["vector_mdtemplatefordw"] = "Plantilla vector per a DokuWiki";
 $lang["vector_qrcodebtn"] = "Generador de codis QR";
 $lang["vector_recentchanges"] = "Canvis recents";
+=======
+<?php
+
+/**
+ * English language for the "vector" DokuWiki template
+ *
+ * If your language is not/only partially translated or you found an error/typo,
+ * have a look at the following files:
+ * - "/lib/tpl/vector/lang/<your lang>/lang.php"
+ * - "/lib/tpl/vector/lang/<your lang>/settings.php"
+ * If they are not existing, copy and translate the English ones (hint: looking
+ * at <http://[your lang].wikipedia.org> might be helpful). And don't forget to
+ * mail the translation to me,
+ * Andreas Haerter <development@andreas-haerter.com>. Thanks :-D.
+ *
+ *
+ * LICENSE: This file is open source software (OSS) and may be copied under
+ *          certain conditions. See COPYING file for details or try to contact
+ *          the author(s) of this file in doubt.
+ *
+ * @license GPLv2 (http://www.gnu.org/licenses/gpl2.html)
+ * @author Andreas Haerter <development@andreas-haerter.com>
+ * @link http://andreas-haerter.com/projects/dokuwiki-template-vector
+ * @link http://www.dokuwiki.org/template:vector
+ * @link http://www.dokuwiki.org/config:lang
+ * @link http://www.dokuwiki.org/devel:configuration
+ */
+
+
+//check if we are running within the DokuWiki environment
+if (!defined("DOKU_INC")){
+    die();
+}
+
+//override default dokuwiki links
+$lang['btn_revs'] = 'Mostra l\'historial';
+
+//tabs, personal tools and special links
+$lang["vector_article"] = "Pàgina";
+$lang["vector_discussion"] = "Revisió";
+$lang["vector_read"] = "Mostra";
+$lang["vector_edit"] = "Modifica";
+$lang["vector_create"] = "Crea";
+$lang["vector_userpage"] = "Pàgina de l'usuari";
+$lang["vector_specialpage"] = "Pàgina especial";
+$lang["vector_mytalk"] = "La meva pàgina";
+$lang["vector_exportodt"] = "Exporta a ODT";
+$lang["vector_exportpdf"] = "Exporta a PDF";
+$lang["vector_subscribens"] = "Subscribe NS Changes"; //original DW lang $lang["btn_subscribens"] is simply too long for common tab configs
+$lang["vector_unsubscribens"] = "Unsubscribe NS Changes";  //original DW lang $lang["btn_unsubscribens"] is simply too long for common tab configs
+$lang["vector_translations"] = "Idiomes";
+
+//headlines for the different bars and boxes
+$lang["vector_navigation"] = "Navegació";
+$lang["vector_toolbox"] = "Caixa d'eines";
+$lang["vector_exportbox"] = "Imprimir/Exportar";
+$lang["vector_inotherlanguages"] = "Idiomes";
+$lang["vector_printexport"] = "Imprimir/Exportar";
+$lang["vector_personnaltools"] = "Eines personals";
+
+//buttons
+$lang["vector_btn_go"] = "Anar";
+$lang["vector_btn_search"] = "Cercar";
+$lang["vector_btn_search_title"] = "Cerca en aquesta pàgina";
+
+//exportbox ("print/export")
+$lang["vector_exportbxdef_print"] = "Versió imprimible";
+$lang["vector_exportbxdef_downloadodt"] = "Download as ODT";
+$lang["vector_exportbxdef_downloadpdf"] = "Download as PDF";
+
+//default toolbox
+$lang["vector_toolbxdef_whatlinkshere"] = "Mostra els enllaços";
+$lang["vector_toolbxdef_upload"] = "Penja un fitxer/imatge";
+$lang["vector_toolbxdef_siteindex"] = "Índex";
+$lang["vector_toolboxdef_permanent"] = "Enllaç permanent";
+$lang["vector_toolboxdef_cite"] = "Cita aquesta pàgina";
+
+//cite this article
+$lang["vector_cite_bibdetailsfor"] = "Bibliographic details for";
+$lang["vector_cite_pagename"] = "Nom de la pàgina";
+$lang["vector_cite_author"] = "Autoria";
+$lang["vector_cite_publisher"] = "Publisher";
+$lang["vector_cite_dateofrev"] = "Data de la revisió";
+$lang["vector_cite_dateretrieved"] = "Date retrieved";
+$lang["vector_cite_permurl"] = "URL permanent";
+$lang["vector_cite_pageversionid"] = "Versió ID de la pàgina";
+$lang["vector_cite_citationstyles"] = "Citation styles for";
+$lang["vector_cite_checkstandards"] = "Recorda consultar el manual d\'estil, guia o les indicacions del teu editor per qualsevol dubte o qüestió sobre la sintaxi i redacció dels continguts.";
+$lang["vector_cite_latexusepackagehint"] = "When using the LaTeX package url (\usepackage{url} somewhere in the preamble), which tends to give much more nicely formatted web addresses, the following may be preferred";
+$lang["vector_cite_retrieved"] = "Retrieved";
+$lang["vector_cite_from"] = "De";
+$lang["vector_cite_in"] = "In";
+$lang["vector_cite_accessed"] = "Accessed";
+$lang["vector_cite_cited"] = "Cited";
+$lang["vector_cite_lastvisited"] = "Últim visita";
+$lang["vector_cite_availableat"] = "Disponible a";
+$lang["vector_cite_discussionpages"] = "Pàgines de discussió";
+$lang["vector_cite_markup"] = "Marques";
+$lang["vector_cite_result"] = "Resultat";
+$lang["vector_cite_thisversion"] = "Aquesta versió";
+
+//other
+$lang["vector_search"] = "Cerca";
+$lang["vector_accessdenied"] = "Accés denegat";
+$lang["vector_fillplaceholder"] = "Please fill this placeholder";
+$lang["vector_donate"] = "Donació";
+$lang["vector_mdtemplatefordw"] = "Adaptació del \"template vector\" per a la DokuWiki de l'IOC";
+$lang["vector_recentchanges"] = "Canvis recents";
+
+>>>>>>> Afegit idioma 'ca' i logo

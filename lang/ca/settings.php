@@ -9,8 +9,6 @@
  * - "/lib/tpl/vector/lang/<your lang>/settings.php"
  * If they are not existing, copy and translate the English ones (hint: looking
  * at <http://[your lang].wikipedia.org> might be helpful). And don't forget to
- * mail the translation to us, SYN Systems <dokuwiki@dev.syn-systems.com>.
- * Thanks :-D.
  *
  *
  * LICENSE: This file is open source software (OSS) and may be copied under
@@ -80,4 +78,3 @@ $lang["vector_youarehere_position"]   = "Posició de la navegació 'sou aquí'";
 $lang["vector_cite_author"]           = "Nom de l'autor a 'cita aquest article'";
 $lang["vector_loaduserjs"]            = "Carrega 'vector/user/user.js'";
 $lang["vector_closedwiki"]            = "Wiki tancada (la majoria d'enllaços/pestanyes/quadres s'amaguen fins que l'usuari entri)";
-

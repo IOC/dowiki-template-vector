@@ -48,7 +48,7 @@ $conf["vector_sitenotice_translate"] = true; //TRUE: load translated sitenotice 
 //navigation
 $conf["vector_navigation"]           = true; //TRUE: use/show navigation
 $conf["vector_navigation_location"]  = ":wiki:navigation"; //page/article used to store the navigation
-$conf["vector_navigation_translate"] = true; //TRUE: load translated navigation if translation plugin is available (see <http://www.dokuwiki.org/plugin:translation>)
+$conf["vector_navigation_translate"] = true; //TRUE: load translated navigation if translation plugin is available (see <http://www.dokuwiki.org/
 
 //exportbox ("print/export")
 $conf["vector_exportbox"]          = true; //TRUE: use/show exportbox
@@ -70,13 +70,15 @@ $conf["vector_copyright_location"]  = ":wiki:copyright"; //page/article used to 
 $conf["vector_copyright_translate"] = true; //TRUE: load translated copyright notice if translation plugin is available (see <http://www.dokuwiki.org/plugin:translation>)
 
 //donation link/button
-$conf["vector_donate"]     = true; //TRUE: use/show donation link/button
-$conf["vector_donate_url"] = "http://syn-systems.com/donate/dokuwiki-template-vector/"; //custom donation URL
+$conf["vector_donate"]          = false; //TRUE: use/show donation link/button
+$conf["vector_donate_default"]  = false; //TRUE: use default donation link/button (if donation link is enabled at all)
+$conf["vector_donate_url"]      = "http://andreas-haerter.com/donate/dokuwiki-template-vector"; //custom donation URL instead of the default one
 
 //TOC
 $conf["vector_toc_position"] = "article"; //article: show TOC embedded within the article; "sidebar": show TOC near the navigation, left column
 
 //other stuff
+$conf["vector_mediamanager_embedded"] =  true; //TRUE: Show media manager surrounded by the common navigation/tabs and stuff
 $conf["vector_breadcrumbs_position"]  = "bottom"; //position of breadcrumbs navigation ("top" or "bottom")
 $conf["vector_youarehere_position"]   = "top"; //position of "you are here" navigation ("top" or "bottom")
 if (!empty($_SERVER["HTTP_HOST"])){
