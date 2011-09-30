@@ -695,6 +695,27 @@ th[align="right"] {
 .dokuwiki table.inline tr:hover td,
 .dokuwiki table.inline tr:hover th,
 .dokuwiki table.inline th:hover {
+  min-width: 0;
+  margin: 0 auto 2em;
+  border-top:1px solid;
+  border-bottom:1px solid;
+  border-left:0 none;
+  border-right:0 none; 
+          
+}
+div.dokuwiki table.inline th{
+ background-color: transparent;
+	border-top:0 none;
+	border-bottom:1px solid;
+	border-left:0 none;
+	border-right:0 none;
+}
+div.dokuwiki table.inline td {
+  border: 0 none;
+}
+
+div.dokuwiki table.inline tr:hover th,
+div.dokuwiki table.inline th:hover {
   background-color: __background_alt__;
 }
 

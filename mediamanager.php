@@ -103,3 +103,11 @@ if (file_exists(DOKU_TPLINC."lang/".$conf["lang"]."/style.css")){
     </div>
 </body>
 </html>
+<?php
+//Remove navigation menu inside mediamanager
+global $conf;
+$conf['vector_navigation'] = FALSE;
+//get the main.php and signal: include the inc_mediamanager.php
+$_GET["vecdo"] = "mediamanager";
+include DOKU_TPLINC."main.php";
+?>

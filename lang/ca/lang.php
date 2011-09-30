@@ -145,6 +145,7 @@ if (!defined("DOKU_INC")){
 
 //override default dokuwiki links
 $lang['btn_revs'] = 'Mostra l\'historial';
+$lang['btn_secedit'] = '[Modifica]';
 
 //tabs, personal tools and special links
 $lang["vector_article"] = "Pàgina";
