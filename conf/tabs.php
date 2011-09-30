@@ -104,8 +104,10 @@ if (empty($conf["useacl"]) || //are there any users?
 
     //edit/create/show source tab
     //ATTENTION: "ca-edit" is used as css id selector!
-    $_vector_tabs_right["ca-edit"]["href"]      = wl(cleanID(getId()), array("do" => "edit", "rev" => (int)$rev), false, "&");
-    $_vector_tabs_right["ca-edit"]["accesskey"] = "E";
+    if (!empty($INFO["writable"])){
+        $_vector_tabs_right["ca-edit"]["href"]      = wl(cleanID(getId()), array("do" => "edit", "rev" => (int)$rev), false, "&");
+        $_vector_tabs_right["ca-edit"]["accesskey"] = "E";
+    }
     if (!empty($INFO["writable"])){ //$INFO comes from DokuWiki core
         if (!empty($INFO["draft"])){
             $_vector_tabs_right["ca-edit"]["href"] = wl(cleanID(getId()), array("do" => "draft", "rev" => (int)$rev), false, "&");
