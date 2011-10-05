@@ -591,8 +591,8 @@ div.dokuwiki li.closed {
 }
 
 div.dokuwiki li {
-  margin-left: 0;
   margin-bottom: 1px;
+  margin-left: 2em;
 }
 
 /* quotes */
@@ -695,7 +695,7 @@ th[align="right"] {
 .dokuwiki table.inline tr:hover td,
 .dokuwiki table.inline tr:hover th,
 .dokuwiki table.inline th:hover {
-  min-width: 0;
+  min-width: 300px;
   margin: 0 auto 2em;
   border-top:1px solid;
   border-bottom:1px solid;
