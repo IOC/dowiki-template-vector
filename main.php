@@ -509,12 +509,6 @@ if (file_exists(DOKU_TPLINC."lang/".$conf["lang"]."/style.css")){
                   default:
                     echo "mediawiki ltr capitalize-all-nouns ns-0 ns-subject ";
                     break;
-              }
-              //add additional CSS class to hide some elements when
-              //we have to show the (not) embedded mediamanager
-              if ($vector_action === "mediamanager" &&
-                  (!tpl_getConf("vector_mediamanager_embedded") || isset($_GET['edid']))){
-                  echo "mmanagernotembedded ";
               } ?>skin-vector">
 <div id="page-container">
 <div id="page-base" class="noprint"></div>
